@@ -12,11 +12,38 @@ using System.Windows.Forms;
 
 namespace ExemploBancoDados02
 {
-    public partial class Form1 : Form
+    public partial class CadastroHeroi : Form
     {
-        public Form1()
+        private int codigo;
+
+        public CadastroHeroi()
         {
             InitializeComponent();
+        }
+
+        public CadastroHeroi(int codigo)
+        {
+            InitializeComponent();
+            // TODO: Complete member initialization
+            this.codigo = codigo;
+            Heroi heroi = new HeroiRepositorio().ObterPeloCodigo(codigo);
+            txtNome.Text = heroi.Nome;
+            txtNomePessoa.Text = heroi.NomePessoa;
+            txtCodigo.Text = Convert.ToString(heroi.Id);
+            txtContaBancaria.Text = Convert.ToString(heroi.ContaBancaria);
+            txtQuantidadeFilmes.Text = Convert.ToString(heroi.QuantidadeFilmes);
+            cbMulher.Checked = heroi.Sexo == 'm';
+            cbRaca.SelectedItem = heroi.Raca;
+            richTextBox1.Text = heroi.Descricao;
+            if (heroi.Escuridao)
+            {
+                rbSim.Checked = true;  
+            }
+            else
+            {
+                rbNao.Checked = true;
+            }
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -39,7 +66,15 @@ namespace ExemploBancoDados02
             heroi.Descricao = richTextBox1.Text; //Descrição do herói
 
 
-            new HeroiRepositorio().Inserir(heroi); //É feita o insert
+            bool cadastrou = new HeroiRepositorio().Inserir(heroi);
+            if (cadastrou)
+            {
+                MessageBox.Show("Registro cadastrado com sucesso");
+            }
+            else
+            {
+                MessageBox.Show("Deu ruim filhão");
+            }
 
         }
     }

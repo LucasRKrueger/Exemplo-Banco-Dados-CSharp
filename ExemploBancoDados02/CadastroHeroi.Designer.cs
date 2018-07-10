@@ -1,6 +1,6 @@
 ﻿namespace ExemploBancoDados02
 {
-    partial class Form1
+    partial class CadastroHeroi
     {
         /// <summary>
         /// Required designer variable.
@@ -47,6 +47,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.cbMulher = new System.Windows.Forms.CheckBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.gbEscuridao.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,9 +65,9 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(477, 12);
+            this.btnSalvar.Location = new System.Drawing.Point(477, 288);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(75, 23);
+            this.btnSalvar.Size = new System.Drawing.Size(75, 32);
             this.btnSalvar.TabIndex = 2;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
@@ -85,7 +87,7 @@
             // 
             this.gbEscuridao.Controls.Add(this.rbNao);
             this.gbEscuridao.Controls.Add(this.rbSim);
-            this.gbEscuridao.Location = new System.Drawing.Point(169, 220);
+            this.gbEscuridao.Location = new System.Drawing.Point(16, 220);
             this.gbEscuridao.Name = "gbEscuridao";
             this.gbEscuridao.Size = new System.Drawing.Size(186, 100);
             this.gbEscuridao.TabIndex = 4;
@@ -192,7 +194,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(374, 197);
+            this.label6.Location = new System.Drawing.Point(218, 201);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 20);
             this.label6.TabIndex = 14;
@@ -219,7 +221,7 @@
             // cbMulher
             // 
             this.cbMulher.AutoSize = true;
-            this.cbMulher.Location = new System.Drawing.Point(450, 94);
+            this.cbMulher.Location = new System.Drawing.Point(338, 201);
             this.cbMulher.Name = "cbMulher";
             this.cbMulher.Size = new System.Drawing.Size(58, 17);
             this.cbMulher.TabIndex = 17;
@@ -228,17 +230,37 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(378, 220);
+            this.richTextBox1.Location = new System.Drawing.Point(222, 224);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(174, 96);
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
             // 
-            // Form1
+            // txtCodigo
+            // 
+            this.txtCodigo.Location = new System.Drawing.Point(422, 11);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(138, 20);
+            this.txtCodigo.TabIndex = 20;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(357, 11);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(59, 20);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Código";
+            // 
+            // CadastroHeroi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(564, 332);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.cbMulher);
             this.Controls.Add(this.label7);
@@ -256,7 +278,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "CadastroHeroi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form1";
             this.gbEscuridao.ResumeLayout(false);
             this.gbEscuridao.PerformLayout();
@@ -286,6 +309,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox cbMulher;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.Label label8;
     }
 }
 

@@ -2,8 +2,10 @@ C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\bin\Deb
 C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\bin\Debug\ExemploBancoDados02.exe
 C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\bin\Debug\ExemploBancoDados02.pdb
 C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.csprojResolveAssemblyReference.cache
-C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.Form1.resources
 C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.Properties.Resources.resources
 C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.csproj.GenerateResource.Cache
 C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.exe
 C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.pdb
+C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.CadastroHeroi.resources
+C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.ListaHerois.resources
+C:\Users\100314\Documents\GitHub\ExemploBancoDados02\ExemploBancoDados02\obj\Debug\ExemploBancoDados02.EstatisticasHerois.resources
